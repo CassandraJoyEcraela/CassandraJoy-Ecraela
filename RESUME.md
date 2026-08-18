@@ -72,4 +72,4 @@ Minor in Philippine Language and Culture | Cum Laude Distinction
 
 **Specialties:** Full Cycle Talent Acquisition Strategy Development & Consultation · Talent Sourcing (Boolean, X-Ray, Google, LinkedIn Recruiter, Social Media) · Leadership & Mentorship · Reporting & Process Implementation · Market Research, Data Analysis & Storytelling · Presentation Development & Public Speaking · Onboarding, Training & Development · HR & Employment Policies · Project Management & Execution · Talent Planning & Internal Mobility · Cross-Functional & Vendor Partnership
 
-Formatted with help from Claude (Anthropic, 2026); content made by your truly!
+Formatted with help from Claude (Anthropic, 2026); content made by yours truly!
