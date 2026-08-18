@@ -71,3 +71,5 @@ Minor in Philippine Language and Culture | Cum Laude Distinction
 **Systems & Platforms:** Claude, Copilot, SAP, Workday, LinkedIn Recruiter, Indeed, Kenexa/Infinite BrassRing, HiredScore, Beamery, Ascendify, LinkedIn Talent Insights, TalentNeuron, Microsoft 365, Smartsheet, Confluence, Adobe Creative Cloud
 
 **Specialties:** Full Cycle Talent Acquisition Strategy Development & Consultation · Talent Sourcing (Boolean, X-Ray, Google, LinkedIn Recruiter, Social Media) · Leadership & Mentorship · Reporting & Process Implementation · Market Research, Data Analysis & Storytelling · Presentation Development & Public Speaking · Onboarding, Training & Development · HR & Employment Policies · Project Management & Execution · Talent Planning & Internal Mobility · Cross-Functional & Vendor Partnership
+
+Formatted with help from Claude (Anthropic, 2026); content made by your truly!
