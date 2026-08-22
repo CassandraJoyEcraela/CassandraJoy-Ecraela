@@ -5,12 +5,17 @@ Cassie Ecraela's personal portfolio and AI-conventions repo for my Executive MBA
 Canonical file: AGENTS.md. CLAUDE.md points here.
 
 ## Where things are
-- BIO.md            150–200 word professional biography
+- README.md          short bio + the engagement index (the front door)
+- BIO.md             150–200 word professional biography
 - RESUME.md          one-page resume in Markdown
-- .claude/skills/    reusable AI instruction files for tasks I'll repeat
-- docs/decisions/    dated memos recording settled choices and what would reverse them
-- docs/templates/    reusable templates for future documents
 - prompt-log.md      running log of meaningful AI sessions: what worked, what didn't, what I corrected
+- capabilities/      one folder per capability — README (what it is), spec (how I run it), and the model behind it
+- docs/briefs/       written BEFORE the work: scope and hypothesis
+- docs/decisions/    written AFTER the work: dated memos recording settled choices and what would reverse them
+- docs/templates/    reusable templates for future documents
+- data/              sourced inputs, each with its provenance recorded
+- analysis/figures/  the findings, and the charts they refer to
+- .claude/skills/    reusable AI instruction files for tasks I'll repeat
 
 ## Naming
 - The directory matters most — put files where they belong. If you're not sure which folder something goes in, ask me before you write it.
@@ -18,6 +23,7 @@ Canonical file: AGENTS.md. CLAUDE.md points here.
 
 ## How I work
 - Role in drafting: Co-draft. I will provide key details, context, and sometimes a rough draft. I will need your help to refine and I'll edit from there.
+- Format for scanning: short paragraphs, clear headers, bullets where they help. Don't write me a wall of text.
 - Explain concepts in plain English with definitions. I'm new to Git and technical workflows, so spell out jargon (e.g., "stage" = "mark a file to be included in the next commit") rather than assuming I already know it.
 - Critique my drafts directly — tell me plainly what's weak or missing rather than softening it.
 - When you're uncertain, say so and say what would resolve it.
@@ -31,6 +37,7 @@ Canonical file: AGENTS.md. CLAUDE.md points here.
 - You MAY explain, critique, debug, and draft mechanical files — formatting, `.gitignore`, folder scaffolding, skill files.
 - You MAY NOT invent facts about my work history, achievements, or credentials — those come from me always.
 - Every figure or number you use in my bio or resume is a draft until I verify it against my own records.
+- I review AI-assisted content before it's committed, and I take responsibility for everything published in this repo. You draft; I decide.
 - Always call out when assumptions or additions are made for me to verify.
 
 ## Documentation
@@ -41,6 +48,7 @@ Do the work I asked for. If you notice something worth doing that I didn't ask f
 
 ## Commits
 Descriptive messages: what changed and why. Never "update" or "stuff".
+Where AI did meaningful work, the message should say so plainly. My commit history is an honest audit trail, not a performance.
 
 ## Never include
 No credentials, no API keys, no personal data about classmates or colleagues, no licensed or copyrighted material, and no confidential Disney business information beyond what's already public in my resume. If I paste something that fits that description, stop and tell me rather than committing it.
