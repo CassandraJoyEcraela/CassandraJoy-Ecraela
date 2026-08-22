@@ -16,3 +16,13 @@ A running log of meaningful AI-assisted sessions on this repo: what was done, wh
 ## 2026-08-18 — Personal LLM foundation setup
 
 **What happened:** Added `AGENTS.md` (with a `CLAUDE.md` pointer), this `prompt-log.md`, a real skill file in `.claude/skills/`, and a first decision memo in `docs/decisions/`, per Step 4 of the onboarding instructions. Also caught that `.gitignore` and the `.claude/` folder hadn't actually made it into the repo from my first upload (likely because dotfiles/dot-folders are hidden by default when dragging files from a folder), and recreated them.
+
+## 2026-08-21 — Fixes and learnings to match Log Stage 0 Compliance instructions
+- Asked Claude to vet the repo against the Stage 0 instructions before submitting changes
+- AI found README.md was a single heading line, missing the required bio and engagement index
+- Four required directories didn't exist: capabilities/, docs/briefs/, data/, analysis/figures/
+- First README paste lost all its Markdown — headings, tables, and links came through as plain text and tabs, because it was copied from a rendered view rather than raw source. Fixed by uploading the file instead of pasting.
+- Claude first said SKILL.md was fully redundant with AGENTS.md. I pushed back and it was wrong. Tree things were unique/missing. Merged those into AGENTS.md before deleting.
+- Claude declined to generate model.xlsx, so I made a skeleton
+
+**Disclosure:** Claude helped me find the right flow of steps
