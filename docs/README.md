@@ -1,0 +1,1 @@
+ This folder holds written work from BUS620 Micro & Macro Economic course. This includes engagement briefs (`briefs/`), key decisions with reasoning (`decisions/`), and reusable templates (`templates/`).
