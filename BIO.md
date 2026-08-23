@@ -8,4 +8,4 @@ I hold a Bachelor of Business Administration in Human Resources, International B
 
 I'm passionate about inclusive hiring, people-focused leadership, and using data storytelling to align talent strategy with business goals. Outside of work, I love connecting with people — feel free to reach out if you want to talk story: [linkedin.com/in/cjecraela](https://www.linkedin.com/in/cjecraela).
 
-Drafted with help from Claude (Anthropic, 2026); reviewed and edited by yours truly!
+Refined with help from Claude (Anthropic, 2026); content created, reviewed and edited by yours truly!
