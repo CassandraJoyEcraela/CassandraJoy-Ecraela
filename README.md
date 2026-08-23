@@ -35,3 +35,5 @@ Each engagement links to the capability it exercised, the brief written before t
 | `analysis/figures/` | The findings, and the charts they refer to |
 | `.claude/skills/` | Reusable AI instruction files |
 | `prompt-log.md` | Running record of AI sessions that mattered |
+
+Drafted with help from Claude (Anthropic, 2026); context provided and content edited by yours truly!
