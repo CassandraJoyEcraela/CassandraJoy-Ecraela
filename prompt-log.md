@@ -26,3 +26,14 @@ A running log of meaningful AI-assisted sessions on this repo: what was done, wh
 - Claude declined to generate model.xlsx, so I made a skeleton
 
 **Disclosure:** Claude helped me find the right flow of steps
+
+## 2026-08-29 — Stage 1 engagement brief: templates, drafting, and a hostile review
+
+**What happened:** Asked Claude to explain the Perfect Competition case steps and build reusable templates for `docs/templates/` modeled on the professor's own `stage-brief-template.md` and `spec-template.md` from his `shidler` repo. Claude also drafted a fill-in-the-blank scaffold for `docs/briefs/perfect-competition-brief.md`, leaving the problem statement, hypothesis, mechanism, and falsification test blank since those are the graded, student-owned parts. I wrote the actual hypothesis myself, went through two grammar/format passes with Claude, then had it check the brief against the Stage 1 and Deliverable Templates pages before I committed it.
+
+**Errors caught / corrections:**
+- My first bed split (12 tomatoes / 28 carrots / 32 mesclun) totaled 72 beds against a 64-bed limit, and put carrots and mesclun both over their per-crop caps. Caught on the first review pass, fixed to 14/20/30, which fits the constraint.
+- When I pasted my "final" brief for the commit-format check, it still had the generic template instructions below (the "What is being decided, by whom..." placeholder text) duplicated underneath my real answers. Claude caught the duplication before I committed it.
+- Asked Claude to poke holes in the committed hypothesis without rewriting it. It flagged that I never checked whether my labor-hours actually fit the season's labor budget (they do, ~3,210 of 6,480 available hours — I hadn't done that math), that I compared crops by price per bed without netting out labor and fertilizer cost, and that my "how I'd know I was wrong" section doesn't actually state a threshold for being wrong. Also pointed out that since carrots and mesclun are both at their caps in my prediction, 14 tomatoes is partly just arithmetic (64 minus the caps), not fully a test of my P=MC reasoning.
+
+**Disclosure:** Hypothesis, problem statement, and all numbers are mine, written before any modeling, per the case's AI-boundary rule. Claude explained the economics, checked formatting/frontmatter against the Stage 1 and Deliverable Templates pages, and critiqued the committed hypothesis for unsupported claims and falsifiability — it did not write or suggest replacement wording for any of the graded content.
