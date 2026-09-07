@@ -26,7 +26,7 @@ That is three sentences and it is worth about fourteen points. Write it before y
 
 ### A note on your workbook
 
-capabilities/marginal-analysis/model.xlsx exists in your repository and is a single empty sheet, and spec.md next to it is 210 bytes. That is Stage 1.2, due 6 September, and the order matters: the specification is written first and the workbook is built from it, not the other way around.
+capabilities/marginal-analysis/model.xlsx exists in your repository and is a single empty sheet, and spec.md next to it is 210 bytes. That is Stage 1.2, due 11 September, and the order matters: the specification is written first and the workbook is built from it, not the other way around.
 
 Committing the skeleton early is fine. Just be aware that a file which exists and a file which is done look identical in GitHub's file list, and the only way to tell is to open it.
 
