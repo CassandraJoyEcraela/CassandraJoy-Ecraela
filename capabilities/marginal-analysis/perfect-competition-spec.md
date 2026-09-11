@@ -175,7 +175,7 @@ farmer_labor_cost = farmer_hours_used × farmer_rate
 
 **Temporary Labor Cost**
 ```
-temp_labor_cost = temp_hours_used × worker_rate
+temp_workers_needed × worker_flat_cost
 ```
 
 **Total Labor Cost**
