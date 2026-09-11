@@ -51,7 +51,7 @@ Build a constrained-optimization model using Excel Solver that solves for the am
 ## Structure
 - Sheet #1: `Inputs` sheet with tables of each data point provided
 - Sheet #2: `Labor & Cost` sheet computing hours and cost per crop
-- Sheet #3: `Optimization` sheet with the three decision cells, the objective, the answer, and the constraints that led to that conclusion
+- Sheet #3: `Optimization` sheet with the three decision cells, the objective, the answers compared to each claim, and the constraints that led to that conclusion
 
 ## Calculation logic
 The engine of the whole model is one formula - hours of labor needed for q beds of a crop: hours(q) = q × hrs-per-week-per-bed × 36 weeks × (1 + dim%)^q
