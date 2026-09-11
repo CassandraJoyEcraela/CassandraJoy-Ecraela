@@ -37,3 +37,7 @@ A running log of meaningful AI-assisted sessions on this repo: what was done, wh
 - Asked Claude to poke holes in the committed hypothesis without rewriting it. It flagged that I never checked whether my labor-hours actually fit the season's labor budget (they do, ~3,210 of 6,480 available hours — I hadn't done that math), that I compared crops by price per bed without netting out labor and fertilizer cost, and that my "how I'd know I was wrong" section doesn't actually state a threshold for being wrong. Also pointed out that since carrots and mesclun are both at their caps in my prediction, 14 tomatoes is partly just arithmetic (64 minus the caps), not fully a test of my P=MC reasoning.
 
 **Disclosure:** Hypothesis, problem statement, and all numbers are mine, written before any modeling, per the case's AI-boundary rule. Claude explained the economics, checked formatting/frontmatter against the Stage 1 and Deliverable Templates pages, and critiqued the committed hypothesis for unsupported claims and falsifiability — it did not write or suggest replacement wording for any of the graded content.
+
+## 2026-09-10 — Fixed misplaced spec.md path (Stage 2)
+- Professor's feedback flagged that capabilities/marginal-analysis/spec.md was a 219-byte stub, and my real spec content was sitting at the wrong path, docs/briefs/perfect-competition-spec.md. I asked Claude for exact easiest steps to fix it.
+- Then Claude confirmed that it can see the spec in the correct path.
