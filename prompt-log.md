@@ -37,6 +37,29 @@ A running log of meaningful AI-assisted sessions on this repo: what was done, wh
 - Asked Claude to poke holes in the committed hypothesis without rewriting it. It flagged that I never checked whether my labor-hours actually fit the season's labor budget (they do, ~3,210 of 6,480 available hours — I hadn't done that math), that I compared crops by price per bed without netting out labor and fertilizer cost, and that my "how I'd know I was wrong" section doesn't actually state a threshold for being wrong. Also pointed out that since carrots and mesclun are both at their caps in my prediction, 14 tomatoes is partly just arithmetic (64 minus the caps), not fully a test of my P=MC reasoning.
 
 **Disclosure:** Hypothesis, problem statement, and all numbers are mine, written before any modeling, per the case's AI-boundary rule. Claude explained the economics, checked formatting/frontmatter against the Stage 1 and Deliverable Templates pages, and critiqued the committed hypothesis for unsupported claims and falsifiability — it did not write or suggest replacement wording for any of the graded content.
+## Stage 2 & 3 — Perfect Competition
+
+**[2026-09-09] — Claude (chat)**
+Asked: Review my committed Stage 2 spec for gaps before handing it to a builder.
+Got: Flagged that labor-cost formulas were still listed as "pending," and that "near cap" was never defined for the hypothesis test.
+Did: Resolved to model temp workers as whole people (not fractional), added `worker_flat_cost` as a named input, and committed the updated spec.
+
+**[2026-09-10] — Claude (chat)**
+Asked: Build the Excel workbook from my committed spec.
+Got: A three-sheet workbook (Inputs / Labor & Cost / Optimization) with named ranges, plus flags on ambiguities the spec didn't resolve.
+Did: Uploaded the workbook to the repo; used it to run Solver.
+
+Asked: Solver kept returning 0/0/0 no matter the starting point — why?
+Got: Diagnosis that the flat per-worker cost created a discontinuous profit surface (cost jumps every time a new worker is needed), which GRG Nonlinear can't handle since it assumes smooth gradients.
+Did: Switched `temp_labor_cost` to an hourly-variable formula and the Solver method to Evolutionary. Result converged to 10/20/30, matching the case's published check figures, from two different starting points.
+
+Asked: Walk me through Stage 3's four "Learn" questions one at a time.
+Got: Guided testing of specific bed counts in my own workbook to derive marginal cost, shadow prices, and the mechanism behind the tomato MC dip, rather than being given the explanations directly.
+Did: Wrote all four analysis paragraphs myself from the resulting numbers; built two charts from the data.
+
+Asked: Help me structure the recommendation memo.
+Got: The three-part template (plan / judgment call / what would change the answer) and feedback on each draft.
+Did: Wrote all three sections myself; tested one hypothesis (whether reordering farmer vs. temp labor priority would change the recommendation) before settling on tomato price as the sensitivity variable.
 
 ## 2026-09-10 — Fixed misplaced spec.md path (Stage 2)
 - Professor's feedback flagged that capabilities/marginal-analysis/spec.md was a 219-byte stub, and my real spec content was sitting at the wrong path, docs/briefs/perfect-competition-spec.md. I asked Claude for exact easiest steps to fix it.
