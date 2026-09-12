@@ -39,12 +39,12 @@ A running log of meaningful AI-assisted sessions on this repo: what was done, wh
 **Disclosure:** Hypothesis, problem statement, and all numbers are mine, written before any modeling, per the case's AI-boundary rule. Claude explained the economics, checked formatting/frontmatter against the Stage 1 and Deliverable Templates pages, and critiqued the committed hypothesis for unsupported claims and falsifiability — it did not write or suggest replacement wording for any of the graded content.
 ## Stage 2 & 3 — Perfect Competition
 
-**[2026-09-09] — Claude (chat)**
+**[2026-09-10] — Claude (chat)**
 Asked: Review my committed Stage 2 spec for gaps before handing it to a builder.
 Got: Flagged that labor-cost formulas were still listed as "pending," and that "near cap" was never defined for the hypothesis test.
 Did: Resolved to model temp workers as whole people (not fractional), added `worker_flat_cost` as a named input, and committed the updated spec.
 
-**[2026-09-10] — Claude (chat)**
+**[2026-09-11] — Claude (chat)**
 Asked: Build the Excel workbook from my committed spec.
 Got: A three-sheet workbook (Inputs / Labor & Cost / Optimization) with named ranges, plus flags on ambiguities the spec didn't resolve.
 Did: Uploaded the workbook to the repo; used it to run Solver.
@@ -61,6 +61,13 @@ Asked: Help me structure the recommendation memo.
 Got: The three-part template (plan / judgment call / what would change the answer) and feedback on each draft.
 Did: Wrote all three sections myself; tested one hypothesis (whether reordering farmer vs. temp labor priority would change the recommendation) before settling on tomato price as the sensitivity variable.
 
-## 2026-09-10 — Fixed misplaced spec.md path (Stage 2)
+## 2026-09-11 — Fixed misplaced spec.md path (Stage 2)
 - Professor's feedback flagged that capabilities/marginal-analysis/spec.md was a 219-byte stub, and my real spec content was sitting at the wrong path, docs/briefs/perfect-competition-spec.md. I asked Claude for exact easiest steps to fix it.
 - Then Claude confirmed that it can see the spec in the correct path.
+
+## Stage 2 & 3 — Perfect Competition
+
+**[2026-09-11] — Claude (chat)**
+
+### Reflection
+AI was most helpful for checking calculations, explaining economic concepts, improving the flow of my writing, and formatting the report in GitHub Markdown. It also helped diagnose why Solver was failing after I modeled labor as whole workers instead of fractions, showing that the resulting discontinuous profit surface was causing problems for the GRG Nonlinear method. However, I did not accept every response without verification. AI initially gave an incorrect cell reference while troubleshooting Solver, and I caught the mistake by checking the spreadsheet and noticing that the referenced cell did not exist. AI also helped refine my interpretation of the bed 6 cost dip by showing that the change was caused by the transition from farmer labor to lower-cost temporary labor. To verify results, I checked formulas directly in Excel, reran Solver when outputs looked suspicious, manually confirmed key values such as marginal costs and shadow prices, and tested alternative scenarios. For example, I explored what would happen if temporary labor were hired earlier and found that while profit changed by about $12,500, the recommended crop mix did not, which gave me more confidence in the model's conclusions.
