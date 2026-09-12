@@ -3,7 +3,7 @@
 | engagement | case-1-perfect-competition   |
 | capability | marginal-analysis            |
 | date       | 2026-09-08                   |
-| status     | approved-for-build           |
+| status     | committed         |
 
 # Perfect Competition Spec
 
