@@ -1,6 +1,6 @@
 # Figures
 
-Charts referenced by the findings. Each figure should be traceable to a file in
-`data/` and to the analysis that produced it.
+Two figures support the Stage 3 analysis in `analysis/perfect-competition-analysis.md`:
 
-Placeholder — no figures yet.
+- **`tomato-mc-vs-price.png`** — Tomato marginal cost vs. price, showing marginal   cost crossing the $8,800 price line around bed 10–11.
+- **`price-relaxed-carrot-mesclun-cap.png`** — Shadow price of relaxing each   binding bed cap (carrots and mesclun).
