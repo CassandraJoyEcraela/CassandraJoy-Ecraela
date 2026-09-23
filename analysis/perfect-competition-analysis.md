@@ -45,17 +45,9 @@ The chart below shows tomato marginal cost crossing the $8,800 price line around
 
 ## Why it's worth growing crops that lose money on their own
 
-When I tested planting 20 carrot beds by themselves, the farm showed a loss
-of about $16,489, which at first makes it seem like carrots are not worth
-growing. However, that loss is mostly caused by assigning the farm's entire
-$20,000 fixed cost to carrots alone. In reality, the carrots generate $41,880
-in revenue while their variable costs are only about $38,369, meaning they
-still contribute $3,511 toward covering the farm's fixed costs. Since those
-fixed costs have to be paid whether carrots are planted or not, they should
-not determine whether carrots are worth growing. As long as revenue is
-greater than variable cost, the crop is helping the farm by covering part of
-its overhead, which is why the optimal solution still includes all 20 carrot
-beds. When testing mesclun, it followed the same logic.
+When I tested planting 20 carrot beds by themselves, the farm showed a loss of about $16,489, which at first makes it seem like carrots are not worth growing. However, that loss is mostly caused by assigning the farm's entire $20,000 fixed cost to carrots alone. In reality, the carrots generate $41,880 in revenue while their variable costs are only about $38,369, meaning they still contribute $3,511 toward covering the farm's fixed costs. The same fact shows up as average variable cost. Carrot AVC at 20 beds is $1,918.45, below the $2,094 price. This demonstrates the standard shutdown-rule condition (P > AVC) for staying in production even when a crop isn't covering its share of fixed costs. Since those fixed costs have to be paid whether carrots are planted or not, they should not determine whether carrots are worth growing. As long as price is above AVC, the crop is helping the farm by covering part of its overhead, which is why the optimal solution still includes all 20 carrot beds.
+
+Mesclun holds by the same rule, but not consistently across its whole curve. At 30 beds, mesclun generates $81,000 in revenue against variable costs of about $72,922, contributing roughly $8,078 toward fixed costs. That works out to an AVC of $2,430.74 against a $2,700 price. That's not true everywhere on the curve, though. At beds 13 and 14, mesclun's AVC actually rises above price ($2,716.35 and $2,702.51), so the shutdown rule would technically fail if the farm stopped there. The optimal solution plants all the way to 30 beds, well past the 14th bed. The rule holds for the plan I'm actually recommending, just not for every point on mesclun's cost curve.
 
 ## Comparing the model to my Stage 1 hypothesis
 
