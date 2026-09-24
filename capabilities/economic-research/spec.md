@@ -1,8 +1,6 @@
 # Spec: AI Automation & Customer Service Employment
 
-**Course:** BUS620 — Individual Research Paper
-**Capability:** economic-research
-**Status:** draft (depending approval)
+**Course:** BUS620 — Individual Research Paper **|** **Capability:** economic-research **|** **Status:** draft (depending approval)
 
 ## Data Sources
 
