@@ -71,3 +71,42 @@ Did: Wrote all three sections myself; tested one hypothesis (whether reordering 
 
 ### Reflection
 AI was most helpful for checking calculations, explaining economic concepts, improving the flow of my writing, and formatting the report in GitHub Markdown. It also helped diagnose why Solver was failing after I modeled labor as whole workers instead of fractions, showing that the resulting discontinuous profit surface was causing problems for the GRG Nonlinear method. However, I did not accept every response without verification. AI initially gave an incorrect cell reference while troubleshooting Solver, and I caught the mistake by checking the spreadsheet and noticing that the referenced cell did not exist. AI also helped refine my interpretation of the bed 6 cost dip by showing that the change was caused by the transition from farmer labor to lower-cost temporary labor. To verify results, I checked formulas directly in Excel, reran Solver when outputs looked suspicious, manually confirmed key values such as marginal costs and shadow prices, and tested alternative scenarios. For example, I explored what would happen if temporary labor were hired earlier and found that while profit changed by about $12,500, the recommended crop mix did not, which gave me more confidence in the model's conclusions.
+
+## 2026-09-23 — Brief, Spec, and GitHub Review Setup
+
+**Asked:** Review draft of one-page brief (ask + plan) combining Professor Adam's written
+feedback and my original three-question draft, per his format (question, series, what would prove me wrong).
+**Got back:** A updated one-pager separating "the ask" (question, concepts,
+analysis) from "the plan" (data sources, figures, success criteria), built
+around his framing that offshoring and AI are the same cost shock arriving
+twice.
+**Did with it:** Used this as the base for the brief; pushed back to refine the research
+question over several rounds to remove a second, unapproved question folded
+into it, per Adam's instruction to pick one question.
+
+**Asked:** Whether a 5-year BLS OEWS window was long enough to detect a break
+between the offshoring era and the AI era.
+**Got back:** Pushback — 5 years starts mid-COVID and doesn't leave enough
+pre-AI baseline to tell a trend break from noise. Suggested 10+ years instead,
+backed by a web search confirming BLS OEWS annual data is available well
+before that range under a consistent methodology.
+**Did with it:** Chose a 10-year window (2016–2025) instead of 5, and
+confirmed the job postings series would come from LinkedIn if available.
+
+**Asked:** Review draft of `research-brief.md`, then iterated on wording
+across several rounds — replacing "channel" with plainer language, cutting a
+policy-tool tangent I didn't want, rewriting the economic-concept bullets in
+plain terms, adding a Data Sources section, and standardizing bullet
+formatting.
+**Got back:** Each revision applied in place, plus an explanation of *why*
+"channel" read as jargon and what the plainer alternatives traded off.
+**Did with it:** Finalized `research-brief.md` with a single-barreled research
+question, plain-language economic concepts, and the three data sources
+(BLS OEWS, LinkedIn postings, AI-attribution timeline).
+
+**Asked:** Review draft of `capabilities/economic-research/spec.md` — data sources,
+model/figures, and success criteria, including the two-part falsification
+test from Adam's feedback.
+**Got back:** An updated full spec draft matching the finalized brief.
+**Did with it:** Added a "(pending access to data)" note myself on the optional job-postings figure since that data isn't confirmed
+yet.
