@@ -1,11 +1,11 @@
 # Research Brief: AI Automation & Customer Service Employment
 
-**Course:** BUS620 — Individual Research Paper
+**Course:** BUS620 — Individual Research Paper **|** 
 **Status:** Pending feedback by Professor Adam (initial topic approved)
 
 ## The Topic
 
-Customer service representative (CSR) jobs have been shrinking for two reasons: companies moving CSR work overseas, and companies replacing CSR work with AI. This paper tests whether those are actually the same story told twice — a fall in the cost of a unit of customer service labor, delivered through two different channels (cheaper foreign labor vs. cheaper software) — or whether the AI disruption behaves differently enough from offshoring to need its own explanation.
+US-based customer service representative (CSR) jobs have been shrinking for two reasons: companies moving CSR work overseas, and companies replacing CSR work with AI. This paper tests whether those are actually the same story told twice — a fall in the cost of a unit of customer service labor, delivered through two different channels (cheaper foreign labor vs. cheaper software) — or whether the AI disruption behaves differently enough from offshoring to need its own explanation.
 
 This matters now because the two channels are colliding in the same occupation at the same time: offshoring has been eroding CSR employment for decades and AI-attributed layoffs in the same occupation have only become common in company statements since roughly 2022–2023.
 
