@@ -37,3 +37,17 @@ Real wages are in 2025 dollars, deflated using CPIAUCNS (May of each year). See 
 | 2023 | $39,680 | $41,942 |
 | 2024 | $42,830 | $43,839 |
 | 2025 | $44,770 | $44,770 |
+
+## A note on nominal vs. real wages
+
+You'll see wages in this paper reported two ways: nominal and real. Here's the difference.
+
+**Nominal wage** is just the actual dollar number for that year. No adjustments. What was reported is what's shown.
+
+**Real wage** takes that same number and asks a more useful question: what could this actually buy? A dollar in 2016 went further than a dollar in 2025, since prices kept rising in between. Real wages adjust for that using CPI-U, so you can actually compare pay across years on equal footing instead of comparing numbers that quietly mean different things.
+
+Here's why it matters for this paper specifically. Nominal CSR wages went from $32,300 in 2016 to $44,770 in 2025. That's a $12,470 jump, and on its own it looks like a solid raise. But once you adjust for inflation, real wages only moved from $43,223 to $44,770 over that same stretch, a real gain of about $1,547. Most of that "raise" was just prices catching up, not workers actually taking home more buying power.
+
+The real-wage line also catches something the nominal line completely misses: a dip down to $41,550 in 2022, even though nominal wages never dropped in any single year across the whole window. If we'd only looked at nominal numbers, that dip wouldn't exist in the story at all.
+
+That's why both get shown throughout the paper. Nominal keeps the raw historical record intact, and real keeps the comparison honest.
