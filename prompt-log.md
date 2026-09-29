@@ -110,3 +110,21 @@ test from Adam's feedback.
 **Got back:** An updated full spec draft matching the finalized brief.
 **Did with it:** Added a "(pending access to data)" note myself on the optional job-postings figure since that data isn't confirmed
 yet.
+
+## 2026-09-28
+
+**Prompted:** Reviewed draft to incorporate Adam's feedback (pandemic baseline, timing test lag, AI-statement inclusion rule) into the spec and brief.
+**Received:** Improvements and a rule for keeping the pandemic years in the baseline, a numeric lag/threshold for the timing test, a statement inclusion rule (later simplified to one rule plus a tech-support sensitivity check), and a real-vs-nominal wage measure using CPI.
+**Used:** Locked all of it into spec.md and research-brief.md, committed before pulling any data.
+
+**Prompted:** Pull the OEWS employment/wage series for all 10 years, plus CPI and the Indeed Hiring Lab postings index from FRED.
+**Received:** Verified BLS data for 2019–2023 from individual occupation pages, 2016–2018/2024–2025 from bulk files, and both FRED series downloaded and confirmed live.
+**Used:** Compiled into oews_wages_annual.xlsx, ran the real-wage conversion, averaged postings into quarters, and uploaded everything (plus reference and source spreadsheets) to data/ with README entries.
+
+**Prompted:** Check outside research on AI-attributed layoff statements against the spec's inclusion rule.
+**Received:** Salesforce (Sept 2, 2025) passes cleanly; Hyatt, Brinks, Uber, and Microsoft's support division still need source/date verification; no clean IT-specific case turned up.
+**Used:** Flagged which entries are solid vs. still need checking before the timeline is finalized.
+
+**Prompted:** Build employment/wage charts with labeled data points, plus a markdown file with tables for GitHub.
+**Received:** Two labeled charts, a matching spreadsheet, and a markdown file with embedded images and tables.
+**Used:** Downloaded for upload to the repo's data folder.
