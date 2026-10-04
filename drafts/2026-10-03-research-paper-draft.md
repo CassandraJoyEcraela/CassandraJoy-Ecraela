@@ -25,7 +25,7 @@ I used three data series and kept them separate: BLS employment and median pay f
 
 Some surveys suggest there's more talk about AI cuts than actual cuts. Only 20% of customer service leaders had reduced agent headcount because of AI, and 55% reported stable staffing (Gartner, 2025). So, I kept the statements as a separate, non-numeric series: they record the stated cause, not the true internal one.
 
-![Figure 1. Employment (May snapshots) vs. trend and two floors](../figures/fig1_employment_vs_trend_paper.png)
+(fig1_employment_vs_trend_paper.png)
 
 **Figure 1.** *Employment (May snapshots) vs. trend and two floors; open circles mark years below a floor. The axis starts at 2.5M, not zero, which exaggerates the 11.1% drop from the 2019 peak.*
 
