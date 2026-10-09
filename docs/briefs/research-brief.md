@@ -1,7 +1,7 @@
 # Research Brief: AI Automation & Customer Service Employment
 
 **Course:** BUS620: Individual Research Paper **|** 
-**Status:** draft (revised with Professor Adam's feedback)
+**Status:** Approved & updated with Professor Adam's feedback
 
 ## The Topic
 
@@ -36,3 +36,15 @@ I'll compare US customer service employment and wages from 2016 to 2025, which c
 Wages are shown in inflation-adjusted dollars, because prices rose a lot over this stretch and raw dollars would make pay look like it was climbing when much of that is just inflation. The raw figures stay alongside, and I chose this approach before pulling any data.
 
 Since a decline in this data fits either offshoring or AI, I can't tell them apart from employment numbers alone, so I check timing separately. I look at whether job postings or employment started falling well before the first company statement blaming AI for customer service cuts: at least two quarters before for postings, at least a year before for employment. A postings quarter counts as falling if it drops at least 3% from the quarter before, and I also try 1% and 5% to see if the answer depends on that number. Any fall that starts in 2020 or 2021 is ignored, so the pandemic doesn't get mistaken for an early AI effect. A fall that starts closer to the first statement than that gets reported as inconclusive. As one more check, I'll see whether the answer changes if the earliest tech support or IT statement sets the clock instead, since those jobs fall outside the BLS occupation I'm measuring.
+
+## Revision notes
+
+### Revision note — 2026-10-08
+
+**Original line (kept above):** "Offshoring has been eating into these jobs for decades, and companies have only started publicly blaming AI for cuts in this occupation since around 2022–2023."
+
+**What the timeline now shows:** The earliest AI-attributed statement I could verify that names any job cuts is IBM in May 2023, and it covers back-office roles, not customer service. A commercial tracker dated C.H. Robinson to 2022, but the company's own filings do not support an AI statement that early. For customer-facing service roles, the first statement that meets the spec's rule is Salesforce on September 2, 2025.
+
+**Line as it should read:** "Offshoring has been eating into these jobs for decades. Companies began tying layoffs and hiring freezes to AI around 2023 in general, but the first customer-facing service statement that meets my rule is from September 2025."
+
+**Why:** the brief should match the timeline the paper reports, because that first statement is the clock in the timing test.
