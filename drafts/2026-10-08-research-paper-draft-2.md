@@ -23,7 +23,7 @@ I used three data series and kept them separate: BLS employment and median pay f
 
 Surveys suggest more talk than action: only 20% of customer service leaders had cut agent headcount because of AI (Gartner, 2025). So I kept the statements as a separate, non-numeric series, since they record the stated public cause, not the true internal one.
 
-![Figure 1](../figures/figure1_employment_trend_floors.png)
+![Figure 1](https://github.com/CassandraJoyEcraela/CassandraJoy-Ecraela/blob/main/drafts/2026-10-08-fig1_employment_trend_floors-draft-2.png)
 
 **Figure 1.** Employment (May snapshots) vs. trend and two floors. The shaded years are the pandemic years, which the break test keeps in the baseline and the timing test sets aside. The axis starts at 2.5M, not zero, which exaggerates the 11.1% drop from the 2019 peak. Purple lines mark where postings first fall two quarters in a row (1% and 3% thresholds); the red line marks the Salesforce statement (Sep 2025).
 
@@ -137,13 +137,13 @@ Real pay is the median annual wage for SOC 43-4051 in dollars of May 2025, adjus
 | 2024     | \$42,830                | 314.069       | \$43,839                            |
 | 2025     | \$44,770                | 321.465       | \$44,770                            |
 
-![Figure C](../figures/figureC_wages_real_vs_nominal.png)
+![Figure C](https://github.com/CassandraJoyEcraela/CassandraJoy-Ecraela/blob/main/drafts/2026-10-08-figureC_wages_real_vs_nominal-draft-2.png)
 
 **Figure C.** Median annual wage for SOC 43-4051, nominal and real. Real wages are in dollars of May 2025, adjusted with May CPI-U, which tracks prices in general and not the cost of living for customer service workers. The axis starts at \$30,000, not zero. Nominal pay rose every year, but real pay fell 5.8% from 2021 to 2022 while nominal pay rose 2.3%. The shaded years are the pandemic years.
 
 ### Appendix D. Job Postings vs. Employment, 2020–2025
 
-![Figure D](../figures/figureD_postings_vs_employment.png)
+![Figure D](https://github.com/CassandraJoyEcraela/CassandraJoy-Ecraela/blob/main/drafts/2026-10-08-figureD_postings_vs_employment-draft-2.png)
 
 **Figure D.** Top: Indeed customer service postings index (seasonally adjusted, February 1, 2020 = 100; daily line and quarterly averages). The March–April 2020 crash is shaded so it is not read as a lasting drop, and the purple lines mark where postings first fall two quarters in a row at the 1% (2022 Q2) and 3% (2023 Q1) thresholds. Bottom: OEWS employment (May snapshots) over the years both series cover; the gray block marks the pandemic years. Postings turned down in 2022, before employment fell in 2023 and well before the first verified customer-facing statement (red line). Postings measure hiring plans, not headcount, so they are read as a hint, not as employment.
 
