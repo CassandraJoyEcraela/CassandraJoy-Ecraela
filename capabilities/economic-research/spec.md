@@ -1,6 +1,6 @@
 # Spec: AI Automation & Customer Service Employment
 
-**Course:** BUS620: Individual Research Paper **|** **Capability:** economic-research **|** **Status:** draft (revised with Professor Adam's feedback)
+**Course:** BUS620: Individual Research Paper **|** **Capability:** economic-research **|** **Status:** Committed and revised with Professor Adam's feedback
 
 ## Data Sources
 
@@ -69,3 +69,29 @@ A finished paper meets this spec if it:
     - **Employment:** a year is a "decline year" if its May estimate is lower than the previous May's. Employment "starts falling" at the first of two decline years in a row. "Well before" means that first fall comes at least one calendar year before the year of the first customer-facing AI statement. The BLS data is blurry on timing, so postings is the sharper clock, and the paper says where the two disagree. If the first statement is too early for employment to show a fall "well before" it, the paper says employment can't answer the timing question.
     - **Tech support check:** the main test uses the earliest customer-facing statement as the clock. I also report what the result would be if the earliest tech support or IT statement from the separate log set the clock instead. If the answer is the same, that strengthens it. If it changes, the paper says so and notes that the broader clock covers jobs the BLS occupation leaves out.
     - **Reading the result:** if either series starts falling well before the first statement, AI may be a label put on cuts that were already happening. If a fall starts within two quarters of the first statement (postings) or within a year (employment), before or after, the timing is inconclusive. If both series start falling after the first statement, that fits AI being a real trigger, though it doesn't prove it.
+
+## Revision notes
+
+The original wording above is unchanged. These notes record where the paper now does something the spec did not say, and why.
+
+### 2026-10-08 — Break test: the floor formula
+
+**Original wording (kept above):** "Use how much the 2016–2021 numbers bounced around the line to set a floor for 2022–2025, at a 90% cutoff. Only drops matter, so it's a one-sided floor." and "This is the only version of the test I run."
+
+**What the paper does:** The wording did not say whether the cushion below the trend line stays the same every year or grows the further out a year is. The paper builds both and reports them side by side in Appendix A. This note replaces "the only version of the test I run" with two versions.
+
+- **Trend:** a straight line (OLS) through the six baseline years, 2016–2021, pandemic years kept in.
+- **Floor formula:** floor = trend − t × s. Here s is the typical bounce of the baseline years around the line (about 76,000 jobs), and t = 1.533 is the multiplier for a 90% one-sided cutoff with six data points.
+- **Fixed floor:** the cushion (t × s, about 116,500 jobs) is the same every year. This is the literal reading of the original wording.
+- **Forecast floor:** the same cushion, multiplied by a factor that grows the further a year is from the middle of the baseline years (about 1.4× in 2022 up to 1.9× in 2025). A line built on six points is less trustworthy farther out, so the cushion should grow.
+- **Primary version:** the forecast floor. Both are reported so the conclusion can be checked.
+
+**What did not change:** the 90% one-sided cutoff, two years in a row to count as a break, all six baseline years kept, and "did not detect a break" (never "nothing happened") when 2022–2025 stays inside the floor.
+
+### 2026-10-08 — Timing test: a threshold with no run
+
+**Original wording (kept above):** "I also report the result at 1% and 5%, decided now, so a reader can see whether the answer depends on the exact number. If it flips, the paper says the timing result is sensitive to the threshold."
+
+**What the paper does:** At the 5% threshold the postings index never falls two quarters in a row after 2021, so there is no start date to compare with the first statement. The spec did not say how to report that. The paper reports it as "no run": that threshold cannot answer the timing question. It is not counted as the result flipping, and it is not described as "postings never fell." The timing conclusion rests on the thresholds that do produce a run (1% and 3%), where it holds.
+
+**What did not change:** the 1%, 3% (primary) and 5% thresholds, and the rule that a run is two or more falling quarters in a row, ignoring any fall that starts in 2020 or 2021.
