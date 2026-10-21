@@ -8,7 +8,7 @@ I hold a BBA in Human Resources, International Business, and Management from the
 
 This repository serves as my working portfolio and is a collection of the capabilities I'm building, the engagements where I've applied them, and an honest record of how I work with AI tools throughout my learning journey. It's also my first time using GitHub, so you'll get to see me learn, make mistakes and grow in real time through the commit history.
 
-Full bio: [`BIO.md`](./BIO.md) · Resume: [`RESUME.md`](./RESUME.md) · AI conventions: [`AGENTS.md`](./AGENTS.md)
+Full bio: [`BIO.md`](./BIO.md) · AI conventions: [`AGENTS.md`](./AGENTS.md)
 
 ---
 
